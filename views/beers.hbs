@@ -1,6 +1,19 @@
-  {{#each beers}}
-  <img src="{{image_url}}" alt="{{name}}">
-  <p>{{name}}</p>
-  <p>{{description}}</p>
-  <p>{{tagline}}</p>
-  <p>{{/each}}</p>
+{{!-- <div class='container'>
+  <div class="box">
+    {{#each beers}}
+    <img src="{{image_url}}" alt="{{name}}">
+    <p>{{name}}</p>
+    <p>{{description}}</p>
+    <p>{{tagline}}</p>
+    {{/each}}
+  </div>
+</div> --}}
+
+{{#each beers}}
+ <li class= "beerLi">
+   <h3>{{name}}</h3>
+   <img src="{{image_url}}" alt="{{name}}" />
+   <p class="italic">{{tagline}}</p>
+   <p>{{description}}</p>
+  </li>
+{{/each}}

@@ -5,8 +5,50 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body {
+    text-align: center;
+}
 
-img{
-    height: 200px;
-    width: 200px;
+img {
+  margin: auto;
+  display: block;
+  max-width:10%;
+  max-height: 10%;
+  width: auto;
+  height: auto;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    /* color: white; */
+}
+  
+li {
+    list-style-type: none;
+    margin: 2%;
+    float: center;
+}
+
+
+.beerLi {
+    margin: 20px 12.5% 20px 12.5%;
+    list-style-type: none;
+    border: 2px solid grey;
+}
+
+  
+.beer {
+    margin: auto;
+    text-align: center;
+    height: 55%;
+}
+
+button {
+    background-color: #2081c3;
+    margin: 2%;
+    padding: 1%;
 }
